@@ -127,7 +127,7 @@ def parse_arg():
 
     parser.add_argument('--cfg', help='experiment configuration filename', type=str, default='./crnn/lib/config/360CC_config.yaml')
     parser.add_argument('--image_path', type=str, default='./ctpn_pytorch/images/test_1.png', help='the path to your image')
-    parser.add_argument('--checkpoint', type=str, default='./crnn/output/checkpoints/mixed_second_finetune_acc_97P7.pth',
+    parser.add_argument('--checkpoint', type=str, default='./crnn/output/crnn.pth',
                         help='the path to your checkpoints')
 
     args = parser.parse_args()
